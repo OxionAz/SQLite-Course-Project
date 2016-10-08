@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DialogCard">
+
+    <LinearLayout style="@style/DialogLinear">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            style="@style/DialogTitle"/>
+
+        <Spinner
+            android:id="@+id/input_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/input_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/input_3"
+            style="@style/EditText"
+            android:hint="@string/input_3_dpm"/>
+
+        <EditText
+            android:id="@+id/input_4"
+            style="@style/EditText"
+            android:hint="@string/input_4_dpm"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="end"
+                      android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dialog_cancelButton"
+                style="@style/Button.Cancel"/>
+
+            <Button
+                android:id="@+id/dialog_okButton"
+                style="@style/Button.OK"/>
+
+            <Button
+                android:id="@+id/dialog_changeButton"
+                android:visibility="gone"
+                style="@style/Button.Change"/>
+
+            <Button
+                android:id="@+id/dialog_deleteButton"
+                android:visibility="gone"
+                style="@style/Button.Delete"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Курсовая работа SQLite</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <!-- Alert dialog -->
+    <string name="add_row">Добавить запись</string>
+    <string name="change_row">Изменить запись</string>
+    <string name="empty">Заполните поле</string>
+    <string name="accept_button">Добавить</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="change_button">Изменить</string>
+    <string name="delete_button">Удалить</string>
+    <!-- Military district -->
+    <string name="input_1_md">ID Округа</string>
+    <string name="input_2_md">Название военного округа</string>
+    <string name="input_3_md">Страна</string>
+    <!-- Dislocation place -->
+    <string name="input_1_dp">ID Места</string>
+    <string name="input_3_dp">Название места дислокации</string>
+    <!-- Rank -->
+    <string name="input_2_rank">ID Звания</string>
+    <string name="input_3_rank">Наименование звания</string>
+    <!-- Military -->
+    <string name="input_3_mlt">ID Военнообязанного</string>
+    <string name="input_4_mlt">ФИО</string>
+    <string name="input_5_mlt">Характеристики</string>
+    <!-- Army -->
+    <string name="input_3_army">ID Армии</string>
+    <string name="input_4_army">Название армии</string>
+    <!-- Community -->
+    <string name="input_4_comm">ID Объединения</string>
+    <string name="input_5_comm">Название объединения</string>
+    <!-- Military unit -->
+    <string name="input_5_mu">ID Военной части</string>
+    <string name="input_6_mu">Название военной части</string>
+    <!-- Company -->
+    <string name="input_3_company">ID Роты</string>
+    <string name="input_4_company">Название роты</string>
+    <!-- Platoon -->
+    <string name="input_3_pln">ID Взвода</string>
+    <string name="input_4_pln">Название взвода</string>
+    <!-- Department -->
+    <string name="input_3_dpm">ID Отделения</string>
+    <string name="input_4_dpm">Название отделения</string>
+    <!-- Speciality -->
+    <string name="input_1_spc">ID Специальности</string>
+    <string name="input_2_spc">Название специальности</string>
+    <string name="input_3_spc">Квалификация</string>
+    <!-- Equipment category -->
+    <string name="input_1_equ_c">ID Категории техники</string>
+    <string name="input_2_equ_c">Название категории техники</string>
+    <!-- Weaponry category -->
+    <string name="input_1_wpn_c">ID Категории вооружения</string>
+    <string name="input_2_wpn_c">Название категории вооружения</string>
+    <!-- Equipment -->
+    <string name="input_3_equ">ID Техники</string>
+    <string name="input_4_equ">Наименование техники</string>
+    <string name="input_5_equ">Характеристики</string>
+    <!-- Weaponry -->
+    <string name="input_2_wpn">ID Вооружения</string>
+    <string name="input_3_wpn">Наименование вооружения</string>
+    <string name="input_4_wpn">Характеристики</string>
+    <!-- Building -->
+    <string name="input_2_blg">ID Сооружения</string>
+    <string name="input_3_blg">Наименование сооружения</string>
+    <string name="input_4_blg">Характеристики</string>
+    <!-- Subdivision dislocation -->
+    <string name="input_2_sub_dis">ID Подразделения</string>
+    <!-- Accounting -->
+    <string name="input_2_acc">Количество единиц</string>
+    <!-- Menu and fragment titles -->
+    <string name="tables">Таблицы</string>
+    <string name="military_district">Военный округ</string>
+    <string name="dislocation_place">Место дислокации</string>
+    <string name="rank">Звание</string>
+    <string name="military">Военнообязанный</string>
+    <string name="army">Армия</string>
+    <string name="community">Объединение</string>
+    <string name="military_unit">Военная часть</string>
+    <string name="company">Рота</string>
+    <string name="platoon">Взвод</string>
+    <string name="department">Отделение</string>
+    <string name="speciality">Специальность</string>
+    <string name="equipment_category">Категория техники</string>
+    <string name="equipment">Техника</string>
+    <string name="weaponry_category">Категория вооружения</string>
+    <string name="weaponry">Вооружение</string>
+    <string name="building">Сооружение</string>
+    <string name="subdivision_dislocation">Дислокация подразделений</string>
+    <string name="speciality_accounting">Учет специальностей</string>
+    <string name="equipment_accounting">Учет техники</string>
+    <string name="weaponry_accounting">Учет вооружения</string>
+    <string name="query">Запросы</string>
+    <string name="task_1">Задание 1</string>
+    <string name="task_2">Задание 2</string>
+    <string name="task_3">Задание 3</string>
+    <string name="task_4">Задание 4</string>
+    <string name="task_5">Задание 5</string>
+    <string name="task_6">Задание 6</string>
+    <string name="task_7">Задание 7</string>
+    <string name="task_8">Задание 8</string>
+    <string name="task_9">Задание 9</string>
+    <string name="task_10">Задание 10</string>
+    <string name="task_11">Задание 11</string>
+    <string name="task_12">Задание 12</string>
+    <string name="task_13">Задание 13</string>
+    <!-- Tasks -->
+    <string name="execute_button">Выполнить запрос</string>
+    <string name="task_1_title">Получить перечень всех частей военного округа, указанной армии, дивизии, корпуса и их командиров.</string>
+    <string name="task_2_title">Получить данные по офицерскому составу в целом и по офицерскому составу указанного звания всех частей военного округа, отдельной армии, дивизии, корпуса, военной части.</string>
+    <string name="task_3_title">Получить данные по рядовому и сержантскому составу в целом и с учетом указанного звания всех частей военного округа, отдельной армии, дивизии, корпуса, военной части.</string>
+    <string name="task_4_title">Получить цепочку подчиненности снизу доверху для указанного военнослужащего.</string>
+    <string name="task_5_title">Получить перечень мест дислокации всех частей военного округа, отдельной армии, дивизии, корпуса, военной части.</string>
+    <string name="task_6_title">Получить данные о наличии боевой технике в целом и с учетом указанной категории или вида во всех частях военного округа, в отдельной армии, дивизии, корпусе, военной части.</string>
+    <string name="task_7_title">Получить перечень сооружений указанной военной части, перечень сооружений, где дислоцировано более одного подразделения, где недислоцировано ни одного подразделения.</string>
+    <string name="task_8_title">Получить перечень военных частей, в которых число единиц указанного вида боевой техники больше 5 (нет указанной боевой техники).</string>
+    <string name="task_9_title">Получить данные о наличии вооружения в целом и с учетом указанной категории или вида во всех частях военного округа, в отдельной армии, дивизии, корпусе, военной части.</string>
+    <string name="task_10_title">Получить перечень военных специальностей, по которым в округе, в отдельной армии, дивизии, корпусе, военной части более пяти специалистов (нет специалистов).</string>
+    <string name="task_11_title">Получить перечень военнослужащих указанной специальности в округе, в отдельной армии, дивизии, корпусе, военной части, в указанном подразделении некоторой военной части.</string>
+    <string name="task_12_title">Получить перечень военных частей, в которых число единиц указанного вида вооружения больше 10 (нет указанного вооружения).</string>
+    <string name="task_13_title">Получить данные об армии, дивизии, корпусе, в которые входит больше всего (меньше всего) военных частей.</string>
+</resources>
